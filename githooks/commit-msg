@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# vi .git/hooks/commit-msg
+# chmod +x .git/hooks/commit-msg
+gitlint --msg-file="$1"
